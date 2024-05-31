@@ -7,15 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5479BEAC1404282078920409 /* Pods_gmanlabsDemoProjects.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E5131528E85FC0015E22EE2 /* Pods_gmanlabsDemoProjects.framework */; };
 		9B1072FE2C08C032009CD419 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B1072FD2C08C032009CD419 /* AppDelegate.swift */; };
 		9B1073002C08C032009CD419 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B1072FF2C08C032009CD419 /* SceneDelegate.swift */; };
 		9B1073022C08C032009CD419 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B1073012C08C032009CD419 /* ViewController.swift */; };
 		9B1073052C08C032009CD419 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B1073032C08C032009CD419 /* Main.storyboard */; };
 		9B1073072C08C035009CD419 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B1073062C08C035009CD419 /* Assets.xcassets */; };
 		9B10730A2C08C035009CD419 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B1073082C08C035009CD419 /* LaunchScreen.storyboard */; };
+		9B1073132C08D0CB009CD419 /* HealthKitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B1073122C08D0CA009CD419 /* HealthKitViewController.swift */; };
+		9B1073162C08D940009CD419 /* HealthKitManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B1073152C08D940009CD419 /* HealthKitManager.swift */; };
+		9B1073192C08D979009CD419 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B1073182C08D979009CD419 /* ContentView.swift */; };
+		9B10731D2C08F7F8009CD419 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B10731C2C08F7F8009CD419 /* TabBarViewController.swift */; };
+		9B10731F2C08F822009CD419 /* BarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B10731E2C08F822009CD419 /* BarViewController.swift */; };
+		9B1073212C08F830009CD419 /* LineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B1073202C08F830009CD419 /* LineViewController.swift */; };
+		9B1073232C08F843009CD419 /* PieViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B1073222C08F843009CD419 /* PieViewController.swift */; };
+		9B1073252C0908E8009CD419 /* Table&CollectionviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B1073242C0908E8009CD419 /* Table&CollectionviewViewController.swift */; };
+		9B1889942C09A7C00095884F /* HealthKitManageranimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B1889932C09A7C00095884F /* HealthKitManageranimation.swift */; };
+		9B1889962C09A7F60095884F /* HealthChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B1889952C09A7F60095884F /* HealthChartView.swift */; };
+		9B1889982C09BD0D0095884F /* AnimationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B1889972C09BD0C0095884F /* AnimationViewController.swift */; };
+		9B18899A2C09BFD10095884F /* ErrorHandlingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B1889992C09BFD10095884F /* ErrorHandlingViewController.swift */; };
+		9B18899C2C09C0820095884F /* ErrorHandling.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B18899B2C09C0820095884F /* ErrorHandling.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		13239FA7204F9CBED6912A0B /* Pods-gmanlabsDemoProjects.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-gmanlabsDemoProjects.debug.xcconfig"; path = "Target Support Files/Pods-gmanlabsDemoProjects/Pods-gmanlabsDemoProjects.debug.xcconfig"; sourceTree = "<group>"; };
+		35A1BF35D4BB6E81B8AD0106 /* Pods-gmanlabsDemoProjects.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-gmanlabsDemoProjects.release.xcconfig"; path = "Target Support Files/Pods-gmanlabsDemoProjects/Pods-gmanlabsDemoProjects.release.xcconfig"; sourceTree = "<group>"; };
+		5E5131528E85FC0015E22EE2 /* Pods_gmanlabsDemoProjects.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_gmanlabsDemoProjects.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B1072FA2C08C032009CD419 /* gmanlabsDemoProjects.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = gmanlabsDemoProjects.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B1072FD2C08C032009CD419 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9B1072FF2C08C032009CD419 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +41,20 @@
 		9B1073062C08C035009CD419 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9B1073092C08C035009CD419 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9B10730B2C08C035009CD419 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B1073112C08C975009CD419 /* gmanlabsDemoProjects.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = gmanlabsDemoProjects.entitlements; sourceTree = "<group>"; };
+		9B1073122C08D0CA009CD419 /* HealthKitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthKitViewController.swift; sourceTree = "<group>"; };
+		9B1073152C08D940009CD419 /* HealthKitManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthKitManager.swift; sourceTree = "<group>"; };
+		9B1073182C08D979009CD419 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		9B10731C2C08F7F8009CD419 /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		9B10731E2C08F822009CD419 /* BarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarViewController.swift; sourceTree = "<group>"; };
+		9B1073202C08F830009CD419 /* LineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineViewController.swift; sourceTree = "<group>"; };
+		9B1073222C08F843009CD419 /* PieViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PieViewController.swift; sourceTree = "<group>"; };
+		9B1073242C0908E8009CD419 /* Table&CollectionviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Table&CollectionviewViewController.swift"; sourceTree = "<group>"; };
+		9B1889932C09A7C00095884F /* HealthKitManageranimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthKitManageranimation.swift; sourceTree = "<group>"; };
+		9B1889952C09A7F60095884F /* HealthChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthChartView.swift; sourceTree = "<group>"; };
+		9B1889972C09BD0C0095884F /* AnimationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationViewController.swift; sourceTree = "<group>"; };
+		9B1889992C09BFD10095884F /* ErrorHandlingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorHandlingViewController.swift; sourceTree = "<group>"; };
+		9B18899B2C09C0820095884F /* ErrorHandling.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorHandling.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +62,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5479BEAC1404282078920409 /* Pods_gmanlabsDemoProjects.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		35296935E0A395A600BCDFD0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				13239FA7204F9CBED6912A0B /* Pods-gmanlabsDemoProjects.debug.xcconfig */,
+				35A1BF35D4BB6E81B8AD0106 /* Pods-gmanlabsDemoProjects.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		9B1072F12C08C032009CD419 = {
 			isa = PBXGroup;
 			children = (
 				9B1072FC2C08C032009CD419 /* gmanlabsDemoProjects */,
 				9B1072FB2C08C032009CD419 /* Products */,
+				35296935E0A395A600BCDFD0 /* Pods */,
+				FDFF80BC8DE78EF930BF131B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +99,45 @@
 		9B1072FC2C08C032009CD419 /* gmanlabsDemoProjects */ = {
 			isa = PBXGroup;
 			children = (
+				9B1073112C08C975009CD419 /* gmanlabsDemoProjects.entitlements */,
 				9B1072FD2C08C032009CD419 /* AppDelegate.swift */,
 				9B1072FF2C08C032009CD419 /* SceneDelegate.swift */,
 				9B1073012C08C032009CD419 /* ViewController.swift */,
+				9B1073122C08D0CA009CD419 /* HealthKitViewController.swift */,
+				9B10731C2C08F7F8009CD419 /* TabBarViewController.swift */,
+				9B10731E2C08F822009CD419 /* BarViewController.swift */,
+				9B1073202C08F830009CD419 /* LineViewController.swift */,
+				9B1073222C08F843009CD419 /* PieViewController.swift */,
+				9B1073242C0908E8009CD419 /* Table&CollectionviewViewController.swift */,
+				9B1889972C09BD0C0095884F /* AnimationViewController.swift */,
+				9B1889992C09BFD10095884F /* ErrorHandlingViewController.swift */,
+				9B1073142C08D930009CD419 /* SwiftUI */,
 				9B1073032C08C032009CD419 /* Main.storyboard */,
 				9B1073062C08C035009CD419 /* Assets.xcassets */,
 				9B1073082C08C035009CD419 /* LaunchScreen.storyboard */,
 				9B10730B2C08C035009CD419 /* Info.plist */,
 			);
 			path = gmanlabsDemoProjects;
+			sourceTree = "<group>";
+		};
+		9B1073142C08D930009CD419 /* SwiftUI */ = {
+			isa = PBXGroup;
+			children = (
+				9B1073152C08D940009CD419 /* HealthKitManager.swift */,
+				9B1073182C08D979009CD419 /* ContentView.swift */,
+				9B1889932C09A7C00095884F /* HealthKitManageranimation.swift */,
+				9B1889952C09A7F60095884F /* HealthChartView.swift */,
+				9B18899B2C09C0820095884F /* ErrorHandling.swift */,
+			);
+			name = SwiftUI;
+			sourceTree = "<group>";
+		};
+		FDFF80BC8DE78EF930BF131B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5E5131528E85FC0015E22EE2 /* Pods_gmanlabsDemoProjects.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +147,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9B10730E2C08C035009CD419 /* Build configuration list for PBXNativeTarget "gmanlabsDemoProjects" */;
 			buildPhases = (
+				1E733E2AC1C13DDBE05129F3 /* [CP] Check Pods Manifest.lock */,
 				9B1072F62C08C032009CD419 /* Sources */,
 				9B1072F72C08C032009CD419 /* Frameworks */,
 				9B1072F82C08C032009CD419 /* Resources */,
+				36E2B31371A997F0B3D938B8 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -133,14 +208,69 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1E733E2AC1C13DDBE05129F3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-gmanlabsDemoProjects-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		36E2B31371A997F0B3D938B8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-gmanlabsDemoProjects/Pods-gmanlabsDemoProjects-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-gmanlabsDemoProjects/Pods-gmanlabsDemoProjects-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-gmanlabsDemoProjects/Pods-gmanlabsDemoProjects-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		9B1072F62C08C032009CD419 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				9B1073022C08C032009CD419 /* ViewController.swift in Sources */,
+				9B1073132C08D0CB009CD419 /* HealthKitViewController.swift in Sources */,
+				9B1073192C08D979009CD419 /* ContentView.swift in Sources */,
+				9B1073232C08F843009CD419 /* PieViewController.swift in Sources */,
 				9B1072FE2C08C032009CD419 /* AppDelegate.swift in Sources */,
+				9B1889962C09A7F60095884F /* HealthChartView.swift in Sources */,
+				9B10731D2C08F7F8009CD419 /* TabBarViewController.swift in Sources */,
+				9B1073162C08D940009CD419 /* HealthKitManager.swift in Sources */,
+				9B1073252C0908E8009CD419 /* Table&CollectionviewViewController.swift in Sources */,
+				9B1889982C09BD0D0095884F /* AnimationViewController.swift in Sources */,
+				9B10731F2C08F822009CD419 /* BarViewController.swift in Sources */,
 				9B1073002C08C032009CD419 /* SceneDelegate.swift in Sources */,
+				9B1073212C08F830009CD419 /* LineViewController.swift in Sources */,
+				9B18899C2C09C0820095884F /* ErrorHandling.swift in Sources */,
+				9B1889942C09A7C00095884F /* HealthKitManageranimation.swift in Sources */,
+				9B18899A2C09BFD10095884F /* ErrorHandlingViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,14 +412,18 @@
 		};
 		9B10730F2C08C035009CD419 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 13239FA7204F9CBED6912A0B /* Pods-gmanlabsDemoProjects.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = gmanlabsDemoProjects/gmanlabsDemoProjects.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = HHK99D7UHL;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = gmanlabsDemoProjects/Info.plist;
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "This app wants to read your health data";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "This app wants to read your health data";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -310,14 +444,18 @@
 		};
 		9B1073102C08C035009CD419 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 35A1BF35D4BB6E81B8AD0106 /* Pods-gmanlabsDemoProjects.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = gmanlabsDemoProjects/gmanlabsDemoProjects.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = HHK99D7UHL;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = gmanlabsDemoProjects/Info.plist;
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "This app wants to read your health data";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "This app wants to read your health data";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
